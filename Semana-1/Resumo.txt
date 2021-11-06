@@ -1,0 +1,41 @@
+O que é GIT?
+Ajuda no versionamento de códiogos.
+
+Comandos do git:
+Init, add(começa a olhar para o arquivo), commit, log, status e show
+
+Linha do tempo:
+
+Branch cria uma linha do tempo do projeto
+git branch feature/lista-produtos
+
+Chechout 
+git checkout feature/lista-produtos
+
+Reset
+git reset assim i git não olha mais para o arquivo
+git checkout master volta para a linha do tempo normal
+
+git merge feature/lista-produtos busca em uma outra linha do tempo uma determinada coisa
+
+############################################3
+Revisão
+
+° git init: inicia nosso versionameto
+° git add: adiciona ou modifica alterações elegiveis para nosso ponto no tempo
+° git commit: adiciona nosso ponto na linha do tempo
+° git log:  visulaiza os pontos na linha do tempo (commit)
+° git status: informa estado atual de alterações
+° git show: apresenta um ponto indicado na linha do tempo
+° git branch: grencia nossos realidade alternativas
+° git checkout: navega entre nossas realidades alternativas 
+° git merge: une nossas linhas do tempo
+° git push: envia nossas alterações para um repositorio remoto 
+###############################################
+GITHUB
+° Uma rede social código fonte
+° Gratuito para uso de projeto open source
+° Extremamente simples utilizar
+° Repositórios remotos
+
+
