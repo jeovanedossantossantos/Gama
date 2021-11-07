@@ -31,6 +31,11 @@ Revisão
 ° git checkout: navega entre nossas realidades alternativas 
 ° git merge: une nossas linhas do tempo
 ° git push: envia nossas alterações para um repositorio remoto 
+° git clone: clona o repositorio remoto
+° git pull: Atualiza seu repositorio que foram subemetidos ao servidor remoto
+° .gitignore: evita que uma pasta ou arquivo seja enviado para o git 
+° gitflow: 
+
 ###############################################
 GITHUB
 ° Uma rede social código fonte
