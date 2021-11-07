@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+            <meta name="description" content="Texto descritivo da página web"/>
+            <meta name="author" content="Jeovane dos Santos"/>
+            
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Págian para Exercicios HTML | Gama Academy</title>
+            
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+            <link rel="stylesheet" type="text/css" href="estilo.css"/>
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+    </head>
+<body>
+
+    <header>
+        <div>
+            <img src="img/logo.png" alt="Logo"/>
+        </div>
+        <ul>
+            <li>
+                <a target="_blanke" href="">GitHub</a>
+            </li>
+            <li>
+                <a href="">Email</a>
+            </li>
+            <li>
+                <a href="">Me ligue</a>
+            </li>
+        </ul>
+
+    </header>
+
+    <main>
+        <section class="container">
+            <div class="name">
+                <h1>Jeovane Dos Santos</h1>
+                <h5>Front-End Developer</h5>
+            </div>
+
+            <div onclick="displayAbout()" id="arrow" class="">
+                <i  id="animatiio" class=" fas fa-sort-down"></i>
+
+            </div>
+            <div style="display: none;" id="about">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Dolore doloribus eveniet vero molestias eligendi ratione, 
+                    neque ea ipsum excepturi nihil atque 
+                    eius quae quia soluta non in fugiat repellat eum!
+                </p>
+
+            </div>
+
+            <div class="form">
+                <div>
+                    <p>Seu contato</p>
+                </div>
+                <form action="">
+                    <input type="text" placeholder="Seu melhor e-mail :)"/>
+                    <button>Enviar</button>
+                </form>
+
+            </div>
+
+        </section>
+        <div class="center">
+            <div class="gr">
+        
+                <h1>90deg, #ED2134, #932918</h1>
+        
+            </div>
+        </div>
+
+    </main>
+
+    <script>
+        function displayAbout(){
+            var arrow = document.getElementById('animatiio');
+            arrow.classList.toggle('rotate');
+           
+            var display = document.getElementById('about');
+            display.classList.toggle('active');
+        }
+    </script>
+
+    
+    
+</body>
+</html>
