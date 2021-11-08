@@ -8,6 +8,9 @@
    
     
 }
+.brand-logo{
+    
+}
 header{
     
     display: flex;
@@ -15,25 +18,43 @@ header{
     margin: auto; 
     justify-content: space-around;
     align-items: center;
-    padding: 5px;
+    padding: 15px;
     /* border-bottom: 1px solid #fff; */
     /* box-shadow: 1px 1px 10px 1px #fff; */
     border-bottom: 15px ridge #fff;
+
     
 }
-header div{
+header nav{
+    background: transparent;
+   
+}
+header nav div{
     
     margin-top: 10px;
+    border: none;
+    
+    
 }
-header div img{
-    width: 45%;
-    min-width: 110px; 
+header nav div a{
+    width: 10%;
+    height: 45px;
+    color: #fff;
+}
+header nav div a i{
+    color: #fff;
+}
+header nav div a img{
+    width: 100%;
+    min-width: 100px; 
+    margin: auto;
 }
 
 header ul{
     
-    display: flex;
+    
      list-style: none;
+    
     /*font-style: italic;
     
     width: 90%;
@@ -54,6 +75,7 @@ a{
     text-decoration: none;
     font-weight: 700;
     font-size: 10pt;
+    
 }
 a:hover{
    color: seashell;
@@ -75,6 +97,16 @@ body{
 .container .name h5{
     font-size: 25px;
 
+}
+.side-nav{
+    background: transparent;
+}
+.side-nav li a{
+    color: #fff;
+    width: 100%;
+}
+.right li a{
+    width: 100%;
 }
 #arrow{
     font-size: 30px;
@@ -192,5 +224,6 @@ body{
 
 
 }
+
 
 
