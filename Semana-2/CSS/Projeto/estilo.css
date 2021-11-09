@@ -27,6 +27,8 @@ header{
 }
 header nav{
     background: transparent;
+    box-shadow: none;
+   
    
 }
 header nav div{
@@ -123,7 +125,7 @@ body{
     
 }
 #animatiio{
-    transition: 1s;
+    transition: 350ms;
 }
 .rotate{
     transform: rotate(180deg);
@@ -154,7 +156,8 @@ body{
    width: 30%;
    min-width: 200px;
    margin: auto;
-   padding: 10px;
+   height: 41px;
+   background-color: #fff;
   
   
 }
@@ -170,7 +173,7 @@ body{
    background-position: right bottom;
    transition:  all 1s ease-out;
    border-radius:  0px 5px 5px 0px ;
-   margin-left: -5px;
+   margin-left: -4px;
    background: linear-gradient(180deg, #a09038, #ffffff);
     
  }
@@ -206,7 +209,7 @@ body{
 
     
    
-}@media only screen and (max-width: 330px){
+}@media only screen and (max-width: 365px){
     .form button,.form input{
  
    
