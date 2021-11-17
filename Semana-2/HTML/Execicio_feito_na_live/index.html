@@ -1,19 +1,99 @@
 <!DOCTYPE html>
 <html>
 
-    <head lang="pt-br">
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Título da Página</title>
-    </head>
+<head lang="pt-br">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Título da Página</title>
 
-    <body>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+       body{
+           background-color: blue;
+           color: #fff;
+          
+       }
+        div{
+            text-align: center;
+            height: 10em;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+        }
+        h1,h2,h3,h4,h5,h6{
+            margin: 5px;
+            
+        }
+        .ajust{
+            display: block;
+            width: 60%;
+            margin:auto;
+        }
+        .ajust p{
+            font-size: 14pt;
+            margin-bottom: 10px;
 
-        <h1>Exemplo de um Título</h1>
-        <p>Exemplo de é um parágrafo</p>
+            
+        }
+        button{
+            border-radius: 5px;
+            padding: 10px;
+            background: rgb(2,0,36);
+            background: linear-gradient(101deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 26%, rgba(0,212,255,1) 100%);
+            color: #fff;
+        }
+    </style>
 
-    </body>
+    <script>
+       function mudaCor(){
+        let cor = document.getElementById("cor")
+        if(cor.style.backgroundColor !=="blue"){
+            
+            cor.style.backgroundColor = "blue"
+            cor.style.color= "#fff"
+           
+        }else{
+            
+            cor.style.backgroundColor ="#fd792d" 
+            cor.style.color= "#000"
+        }
+        
+       }
+
+    </script>
+</head>
+
+<body id="cor">
+    <div>
+        <h1>H1</h1>
+        <h2>H2</h2>
+        <h3>H3</h3>
+        <h4>H4</h4>
+        <h5>H5</h5>
+        <h6>H6</h6>
+    </div>
+
+    <div class="ajust">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis sit cupiditate reprehenderit rem qui minima
+            magnam adipisci tempora quaerat eveniet tempore, repudiandae enim ducimus expedita explicabo sunt.
+            Repellendus, culpa iure!
+        </p>
+
+        <button onclick="mudaCor()">Clique Aqui</button>
+    </div>
+    <div>
+        <img src="https://logodix.com/logo/954889.png"/>
+    </div>
+
+
+
+</body>
 
 </html>
 
