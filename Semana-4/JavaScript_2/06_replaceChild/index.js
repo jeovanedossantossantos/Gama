@@ -24,6 +24,15 @@ let l = document.getElementById("banana")
 let pai = l.parentNode
 
 pai.appendChild(n)
+///////////////////////////////
+
+let eleP = document.getElementById("primeiro3")
+let paiP = eleP.parentNode
+let h1 = document.createElement("h1")
+let textoH1 = document.createTextNode("Troca feita")
+
+h1.appendChild(textoH1)
+paiP.replaceChild(h1, eleP)
 
 
 
