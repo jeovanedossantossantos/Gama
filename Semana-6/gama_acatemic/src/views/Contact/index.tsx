@@ -5,8 +5,11 @@ import { api } from '../../services/api';
 
 
 interface IData {
+    
     name: string;
     email: string;
+    
+
 }
 const Contact: React.FC = () => {
 
@@ -45,6 +48,7 @@ const Contact: React.FC = () => {
                                 placeholder="nome"
                                 onChange={e => setData({ ...data, name: e.target.value })}
                             />
+                            
                             <input type="text"
                                 placeholder="email"
                                 onChange={e => setData({ ...data, email: e.target.value })}
