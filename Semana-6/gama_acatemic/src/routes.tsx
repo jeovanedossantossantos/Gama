@@ -4,6 +4,8 @@ import Home from "./views/Home";
 import Contact from "./views/Contact";
 import SignIn from "./views/Signin";
 import SignUp from "./views/SignUp";
+import Dashboard from "./views/Dashboard"
+
 const Routes = ()=>{
     return (
         <BrowserRouter>
@@ -15,6 +17,8 @@ const Routes = ()=>{
             <Route path={"/signin"} exact component={SignIn}></Route>
             
             <Route path={"/signup"} exact component={SignUp}></Route>
+
+            <Route path={"/dashboard"} component={Dashboard}></Route>
         </Switch>
           
         

@@ -1,0 +1,13 @@
+{
+  "name": "jeovane",
+  "version": "1",
+  "description": "estudos",
+  "main": "teste",
+  "author": "jeovane",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "express": "^4.17.2",
+    "mongoose": "^6.1.2"
+  }
+}

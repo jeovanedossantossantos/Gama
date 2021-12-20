@@ -1,7 +1,7 @@
 import React, { useState, useCallback, FormEvent } from "react";
 import { Link } from "react-router-dom";
 import { Container } from "./style";
-import { api } from '../../services/api';
+import api  from '../../services/api';
 
 
 interface IData {

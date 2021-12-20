@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body onload="carregar2()">
+    <input type="text" />
+    <button>Save People</button>
+    <button id="a">apagar</button>
+
+    <div id="result">
+        <ol></ol>
+    </div>
+
+    <script>
+        /**
+         * Elementos
+         */
+        const inputPeople = document.querySelector("input")
+        const btnSavePeople = document.querySelector("button")
+        const apagar = document.getElementById("a")
+        const result = document.querySelector("#result ol")
+
+        /**
+         * Função responsável por salvar os dados
+         */
+        btnSavePeople.addEventListener("click", _ => {
+            let peoples = new Array()
+            let id = new Array()
+            let cont = 0
+
+            /**
+             * Verifica se a propriedade existe
+             * Caso exista, converte de String para Object
+             */
+            if (localStorage.hasOwnProperty("peoples" + cont)) {
+                peoples = JSON.parse(localStorage.getItem("peoples" + cont))
+            }
+
+            /* Adiciona um novo valor no array criado */
+            peoples.push({
+                name: inputPeople.value
+            })
+
+            /* Salva o item */
+            localStorage.setItem("peoples" + cont, JSON.stringify(peoples))
+
+            /* Exibe o resultado */
+            result.insertAdjacentHTML('beforeend', `<li>${inputPeople.value}</li>`)
+
+        })
+
+
+
+        /**
+         * Função responsável por carregar o conteúdo
+         */
+        function carregar() {
+
+            if (localStorage.hasOwnProperty("peoples")) {
+                JSON.parse(localStorage.getItem("peoples")).forEach(people => {
+                    result.insertAdjacentHTML('beforeend', `<li>${people.name}</li>`)
+                })
+            }
+
+        }
+        apagar.addEventListener("click", _ => {
+            JSON.parse(localStorage.removeItem("peoples"), document.location.reload(true))
+
+
+        })
+        let lista = []
+        for (var i = 0; i < localStorage.length; i++) {
+            // console.log(localStorage.getItem(localStorage.key(i)));
+            lista.push(localStorage.getItem(localStorage.key(i)))
+
+        }
+        let ob = JSON.parse(lista);
+        // console.log(ob)
+
+        function carregar2() {
+            for (let i = 0; i < ob.length; i++) {
+                console.log(ob[i].name)
+            }
+        }
+        // let lista = JSON.parse(localStorage.getItem("peoples"))
+        // console.log(localStorage.getItem("peoples"))
+    </script>
+</body>
+
+</html>

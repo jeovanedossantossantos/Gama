@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <span class="btnSetItem">Gravar Item</span>
+    <span class="btnGetItem">Pegar Item</span>
+    <span class="btnRemoveItem">Remover Item</span>
+
+    <script>
+        (function() {
+            'use strict';
+
+            var btnSetItem = document.querySelector('.btnSetItem')
+            var btnGetItem = document.querySelector('.btnGetItem')
+            var btnRemoveItem = document.querySelector('.btnRemoveItem')
+
+            function setLocalStorage() {
+                btnSetItem.addEventListener('click', () => {
+                    localStorage.setItem('nome', 'Jeovane')
+                    localStorage.setItem('nome1', 'Fabiana')
+                    console.log(localStorage)
+                })
+            }
+
+            function getLocalStorage() {
+                btnGetItem.addEventListener('click', () => {
+                    console.log(localStorage.getItem('nome1'))
+                })
+            }
+
+            function removeLocalStorage() {
+                btnRemoveItem.addEventListener('click', () => {
+                    localStorage.removeItem('nome')
+                })
+            }
+
+            setLocalStorage();
+            getLocalStorage();
+            removeLocalStorage();
+
+        }());
+    </script>
+</body>
+
+</html>

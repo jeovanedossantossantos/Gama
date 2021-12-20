@@ -1,0 +1,293 @@
+_type: export
+__export_format: 4
+__export_date: 2021-07-05T02:18:05.588Z
+__export_source: insomnia.desktop.app:v2021.4.0
+resources:
+  - _id: req_64a475ce7db34920b40cd69051521707
+    parentId: fld_5f87e13214614481a6f7c5e7be7e2cf8
+    modified: 1625442718956
+    created: 1625441160881
+    url: "{{ _.baseURL }}collaborator"
+    name: GetAll
+    description: ""
+    method: GET
+    body: {}
+    parameters: []
+    headers:
+      - id: pair_92f0087471544288a4b063524851deb0
+        name: Authorization
+        value: Bearer
+          eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNjI1NDQwODkzLCJleHAiOjE2MjU0NDQ0OTN9.aReThpIkMThkslhUN8TXeK37G40IpfLjLFelQ-OqBv0
+        description: ""
+    authentication: {}
+    metaSortKey: -1625441160881
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: fld_5f87e13214614481a6f7c5e7be7e2cf8
+    parentId: wrk_5897078400a84659a4c7be6322aa6fba
+    modified: 1625441152011
+    created: 1625441152011
+    name: Collaborator
+    description: ""
+    environment: {}
+    environmentPropertyOrder: null
+    metaSortKey: -1625441152011
+    _type: request_group
+  - _id: wrk_5897078400a84659a4c7be6322aa6fba
+    parentId: null
+    modified: 1625363322348
+    created: 1625360001180
+    name: GamaAcademy
+    description: ""
+    scope: collection
+    _type: workspace
+  - _id: req_e7989da87c45404499602d63804cd4e6
+    parentId: fld_60eb29ed4cf2441aa5e90402c0dc8b8d
+    modified: 1625440873764
+    created: 1625363826972
+    url: "{{ _.baseURL }}files"
+    name: Picture
+    description: ""
+    method: POST
+    body:
+      mimeType: multipart/form-data
+      params:
+        - id: pair_b1f5bba4b177492bb34aaa0784853adb
+          name: file
+          value: ""
+          description: ""
+          type: file
+          fileName: /Users/douglasmorais/Downloads/musk.jpg
+    parameters: []
+    headers:
+      - name: Content-Type
+        value: multipart/form-data
+        id: pair_f64134c6a0e1443e8182b33f7a2407bf
+    authentication:
+      type: bearer
+      token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNjI1NDQwNjQ3LCJleHAiOjE2MjU0NDQyNDd9.LE2b47Z8HeIaF6yqX2eWBP6zKFMcncP9oVuV1goNsLc
+    metaSortKey: -1625363826972
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: fld_60eb29ed4cf2441aa5e90402c0dc8b8d
+    parentId: wrk_5897078400a84659a4c7be6322aa6fba
+    modified: 1625364692165
+    created: 1625363806543
+    name: Avatar
+    description: ""
+    environment: {}
+    environmentPropertyOrder: null
+    metaSortKey: -1625363806543
+    _type: request_group
+  - _id: req_24e90e9b643e4042b08580a88ec1193f
+    parentId: fld_c216f731fcd04300910ada0debaa3cac
+    modified: 1625408980637
+    created: 1625360011429
+    url: "{{ _.baseURL }}users"
+    name: Register
+    description: ""
+    method: POST
+    body:
+      mimeType: application/json
+      text: |-
+        {
+        	"name": "User Tester",
+        	"email": "email@tester21.com",
+        	"password": "123456"
+        }
+    parameters: []
+    headers:
+      - name: Content-Type
+        value: application/json
+        id: pair_b832f930144a4770bd49fb27e2456d7f
+    authentication: {}
+    metaSortKey: -1625360011429
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: fld_c216f731fcd04300910ada0debaa3cac
+    parentId: wrk_5897078400a84659a4c7be6322aa6fba
+    modified: 1625363526027
+    created: 1625363355334
+    name: Register
+    description: ""
+    environment: {}
+    environmentPropertyOrder: null
+    metaSortKey: -1625363399653
+    _type: request_group
+  - _id: req_da5f778d21494242b719ffa971a2de58
+    parentId: fld_e73f9997a64e4d67b9f854a0ea4f2171
+    modified: 1625414659856
+    created: 1625363408684
+    url: "{{ _.baseURL }}session"
+    name: Auth
+    description: ""
+    method: POST
+    body:
+      mimeType: application/json
+      text: |-
+        {
+        	"email": "email@email.com",
+        	"password": "123456"
+        }
+    parameters: []
+    headers:
+      - name: Content-Type
+        value: application/json
+        id: pair_b34b201c09e84e2e8a5db1af59d873ec
+    authentication: {}
+    metaSortKey: -1625363408684
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: fld_e73f9997a64e4d67b9f854a0ea4f2171
+    parentId: wrk_5897078400a84659a4c7be6322aa6fba
+    modified: 1625363399603
+    created: 1625363399603
+    name: Auth
+    description: ""
+    environment: {}
+    environmentPropertyOrder: null
+    metaSortKey: -1625363399603
+    _type: request_group
+  - _id: req_019ca689dc394338bf881de3ba62c071
+    parentId: fld_f76504e4f4cd43c79eda522ed74ecc7c
+    modified: 1625363563916
+    created: 1625363555987
+    url: "{{ _.baseURL }}users"
+    name: Update
+    description: ""
+    method: PUT
+    body: {}
+    parameters: []
+    headers: []
+    authentication: {}
+    metaSortKey: -1625363555987
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: fld_f76504e4f4cd43c79eda522ed74ecc7c
+    parentId: wrk_5897078400a84659a4c7be6322aa6fba
+    modified: 1625363569639
+    created: 1625363544375
+    name: Users
+    description: ""
+    environment: {}
+    environmentPropertyOrder: null
+    metaSortKey: -1625363399553
+    _type: request_group
+  - _id: req_9e3daadd4918484eb284b09370532a24
+    parentId: fld_3f21cd5811534701a67b9e5f56de3994
+    modified: 1625441077269
+    created: 1625363638811
+    url: "{{ _.baseURL }}appointments"
+    name: Appontments
+    description: ""
+    method: POST
+    body:
+      mimeType: application/json
+      text: ""
+    parameters: []
+    headers:
+      - name: Content-Type
+        value: application/json
+    authentication:
+      type: bearer
+    metaSortKey: -1625363616396
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: fld_3f21cd5811534701a67b9e5f56de3994
+    parentId: wrk_5897078400a84659a4c7be6322aa6fba
+    modified: 1625363606209
+    created: 1625363602154
+    name: Appointments
+    description: ""
+    environment: {}
+    environmentPropertyOrder: null
+    metaSortKey: -1625363399503
+    _type: request_group
+  - _id: req_d63c67cdb97a457c81499464f0a71955
+    parentId: fld_3f21cd5811534701a67b9e5f56de3994
+    modified: 1625440921421
+    created: 1625363616346
+    url: "{{ _.baseURL }}appointments"
+    name: Appointments
+    description: ""
+    method: GET
+    body: {}
+    parameters: []
+    headers: []
+    authentication:
+      type: bearer
+      token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNjI1NDQwODkzLCJleHAiOjE2MjU0NDQ0OTN9.aReThpIkMThkslhUN8TXeK37G40IpfLjLFelQ-OqBv0
+    metaSortKey: -1625363616346
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: env_eb0e64bf8c3777480e1e1624d6fd2066899bddc1
+    parentId: wrk_5897078400a84659a4c7be6322aa6fba
+    modified: 1625362349478
+    created: 1625360001282
+    name: Base Environment
+    data:
+      baseURL: https://sistemadeagendamento-san5v.ondigitalocean.app/
+    dataPropertyOrder:
+      "&":
+        - baseURL
+    color: null
+    isPrivate: false
+    metaSortKey: 1625360001282
+    _type: environment
+  - _id: jar_eb0e64bf8c3777480e1e1624d6fd2066899bddc1
+    parentId: wrk_5897078400a84659a4c7be6322aa6fba
+    modified: 1625360001292
+    created: 1625360001292
+    name: Default Jar
+    cookies: []
+    _type: cookie_jar
+  - _id: spc_417241bcd90a4b449dbf8ec244ca6446
+    parentId: wrk_5897078400a84659a4c7be6322aa6fba
+    modified: 1625360001183
+    created: 1625360001183
+    fileName: Tests
+    contents: ""
+    contentType: yaml
+    _type: api_spec
