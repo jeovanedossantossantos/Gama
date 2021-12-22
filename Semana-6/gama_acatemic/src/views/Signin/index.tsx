@@ -31,7 +31,7 @@ const SignIn: React.FC = () => {
         api.post('session', data).then(
             
             response => {
-                const sessionToken = JSON.stringify(response.data)
+                const sessionToken = JSON.stringify(response.data.token)
                 localStorage.setItem('@gamaServiceToken',sessionToken)
                 setLoad(false)
                 toast.success("Login realizado com sucesso!", {
