@@ -1,31 +1,23 @@
 import React, { useState } from "react";
 import { Container } from "./style";
 import { Link } from "react-router-dom";
+import Nav from "../../components/Nav";
+import Footer from "../../components/Footer";
 const Home: React.FC = () => {
 
     const [isLoad, setIsLoad] = useState(true)
     return (
-        <Container>
-            {isLoad ? (
+        <>
+            <Nav />
+            <Container>
                 <div>
 
+                    <h1>Home </h1>
 
-                    <p>Carregando...</p>
                 </div>
-            ) :
-                (
-                    <div>
-                        <h1>Home</h1>
-
-                        <Link to="/signin">Clique</Link>
-                    </div>
-                )
-            }
-
-            <div className="botao">
-                <button onClick={() => setIsLoad(!isLoad)}>clique aqui</button>
-            </div>
-        </Container>
+            </Container>
+            <Footer />
+        </>
     )
 
 }

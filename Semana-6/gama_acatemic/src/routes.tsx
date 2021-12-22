@@ -2,7 +2,7 @@ import React from "react";
 import { Route, BrowserRouter, Switch } from "react-router-dom";
 import PrivateRoute from "./private.routes";
 import Home from "./views/Home";
-import Contact from "./views/Contact";
+import Cursos from "./views/Cursos";
 import SignIn from "./views/Signin";
 import SignUp from "./views/SignUp";
 import Dashboard from "./views/Dashboard"
@@ -13,7 +13,7 @@ const Routes = ()=>{
 
         <Switch>
             <Route path={"/"} exact component={Home}></Route>
-            <Route path={"/contact"} exact component={Contact}></Route>
+            <Route path={"/cursos"} exact component={Cursos}></Route>
             
             <Route path={"/signin"} exact component={SignIn}></Route>
             
