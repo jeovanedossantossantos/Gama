@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+</head>
+
+<body>
+
+    <div id="root" style="text-align: center;">
+
+    </div>
+
+    <script>
+        let conteudo = ""
+        let tipo = document.getElementById("root")
+        conteudo += `<h1>10+10=${10+10}</h1>`
+        conteudo += `<h1>10x10=${10*10}</h1>`
+        conteudo += `<h1>10/10=${10/10}</h1>`
+        conteudo += `<h1>10+10=${10-10}</h1>`
+        conteudo += `<h1>10^10=${10**10}</h1>`
+        conteudo += `<h1>10%10=${10%10}</h1>`
+        tipo.innerHTML = conteudo
+    </script>
+</body>
+
+</html>

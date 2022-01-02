@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+</head>
+
+<body>
+
+    <div id="root" style="text-align: center;">
+        <h1>Contando até 5</h1>
+
+    </div>
+
+    <script>
+        let i = 0
+        let conteudo = ""
+        let tipo = document.getElementById("root")
+        const timer = setInterval(function() {
+
+
+
+            tipo.innerHTML += `<h1>${i + 1}</h1>`
+
+            if (i + 1 === 5) {
+                // aborta a execução caso a condição seja atingida
+                clearInterval(timer)
+                tipo.innerHTML += `<h1>Fim</h1>`
+            }
+
+            i++
+
+
+        }, 1000)
+    </script>
+</body>
+
+</html>
