@@ -1,0 +1,11 @@
+{
+    "name": "00-estrutura_de_um_objeto",
+    "version": "1.0.0",
+    "main": "src/index.js",
+    "license": "MIT",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "nodemon index.js"
+    }
+
+}
