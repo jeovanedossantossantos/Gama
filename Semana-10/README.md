@@ -36,7 +36,7 @@
             
         </ol>
 </li>
-<li> - [ ] Criando as tabelas agora no workbench</li>
+<li> - [x] Criando as tabelas agora no workbench</li>
 <li> - [ ] Alterando estruturas e removendo tabelas</li>
 <li> - [ ] Inserindo dados nas tabelas</li>
 <li> - [ ] Fazendo alterações e compreendendo resultados</li>
