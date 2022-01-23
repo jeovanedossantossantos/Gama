@@ -32,8 +32,7 @@
                     );
                 </p>
             </li>
-            <li>DESCRIBE nome_da_tabela; => mostra as descrições da tabela</li>
-            
+            <li>DESCRIBE nome_da_tabela; => mostra as descrições da tabela</li> 
         </ol>
 </li>
 <li> - [x] Criando as tabelas agora no workbench</li>
