@@ -14,7 +14,7 @@
 </p> 
 
 </li>
-<li>[x]Método HTTP
+<li>[x] Método HTTP
 
 <ol>
     <h5>Principais Métodos</h5>
@@ -25,15 +25,15 @@
 </ol>
 
 </li>
-<li>[] Rotas (Parte 1)</li>
-<li>[] Rotas (Parte 2)</li>
-<li>[] Controller</li>
-<li>[] Nodemoon</li>
-<li>[] ORM - Sequelize (Parte 1)</li>
-<li>[] ORM - Sequelize (Parte 2)</li>
-<li>[] CRUD - Sequelize (Parte 1)</li>
-<li>[] CRUD - Sequelize (Parte 2)</li>
-<li>[] Relacionamentos com Sequelize</li>
-<li>[] Relações N pra N</li>
+<li>[ ] Rotas (Parte 1)</li>
+<li>[ ] Rotas (Parte 2)</li>
+<li>[ ] Controller</li>
+<li>[ ] Nodemoon</li>
+<li>[ ] ORM - Sequelize (Parte 1)</li>
+<li>[ ] ORM - Sequelize (Parte 2)</li>
+<li>[ ] CRUD - Sequelize (Parte 1)</li>
+<li>[ ] CRUD - Sequelize (Parte 2)</li>
+<li>[ ] Relacionamentos com Sequelize</li>
+<li>[ ] Relações N pra N</li>
 
 </ol>
