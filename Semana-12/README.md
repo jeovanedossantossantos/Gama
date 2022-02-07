@@ -25,8 +25,8 @@
 </ol>
 
 </li>
-<li>[] Rotas (Parte 1)</li>
-<li>[] Rotas (Parte 2)</li>
+<li>[x] Rotas (Parte 1)</li>
+<li>[x] Rotas (Parte 2)</li>
 <li>[] Controller</li>
 <li>[] Nodemoon</li>
 <li>[] ORM - Sequelize (Parte 1)</li>
