@@ -27,9 +27,11 @@
 </li>
 <li>[x] Rotas (Parte 1)</li>
 <li>[x] Rotas (Parte 2)</li>
-<li>[ ] Controller</li>
-<li>[ ] Nodemoon</li>
-<li>[ ] ORM - Sequelize (Parte 1)</li>
+<li>[x] Controller</li>
+<li>[x] Nodemoon</li>
+<li>[ ] ORM - Sequelize (Parte 1)
+ORM - A ideia dele é ajudar em todas as operações com o banco de dados usando apenas o JS.
+</li>
 <li>[ ] ORM - Sequelize (Parte 2)</li>
 <li>[ ] CRUD - Sequelize (Parte 1)</li>
 <li>[ ] CRUD - Sequelize (Parte 2)</li>
