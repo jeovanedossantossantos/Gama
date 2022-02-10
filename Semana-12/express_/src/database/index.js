@@ -8,7 +8,7 @@ try{
         host: process.env.PORTA,
     
     })
-    console.log("deu certo")
+    console.log("Conexão bem sucedida")
 }catch(err){
 console.log("Erro " + err)
 }
