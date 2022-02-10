@@ -18,6 +18,8 @@ routes.post("/cadastra", (req, res)=>{
 })
 
 routes.get("/produto/lista", controllerProdutos.listarProduto)
-routes.post("/produto", controllerProdutos.cadastraProduto)
+routes.post("/produto/criar", controllerProdutos.cadastraProduto)
+
+
 
 module.exports = routes;

@@ -1,25 +1,30 @@
 const db = require("../database")
-const {DataTypes} = require("sequelize")
-const Produtos = db.define("Produtos",{
+const { DataTypes } = require("sequelize")
+
+const Produtos = db.db.define("produtos", {
     id: {
         type: DataTypes.INTEGER,
         primaryKey: true,
-        autoIncrement:true,
+        autoIncrement: true,
     },
-    nome:{
-        type:DataTypes.STRING
-        
+    nome: {
+        type: DataTypes.STRING
+
     },
-    preco:{
+    preco: {
         type: DataTypes.FLOAT,
     },
-    quantidade:{
-        type:DataTypes.INTEGER
+    quantidade: {
+        type: DataTypes.INTEGER,
     },
-    createdAt:{
-        type:DataTypes.DATE,
+    createdAt: {
+        type: DataTypes.DATE,
     },
-    upadateAt:{
-        type:DataTypes.DATE,
-    }
-})
+    updatedAt: {
+        type: DataTypes.DATE,
+    },
+}, {
+    tableName: "produtos",
+}
+);
+module.exports = Produtos
