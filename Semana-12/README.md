@@ -41,6 +41,6 @@ ORM - A ideia dele é ajudar em todas as operações com o banco de dados usando
 <li>[x] CRUD - Sequelize (Parte 1)</li>
 <li>[x] CRUD - Sequelize (Parte 2)</li>
 <li>[x] Relacionamentos com Sequelize</li>
-<li>[ ] Relações N pra N</li>
+<li>[x] Relações N pra N</li>
 
 </ol>
