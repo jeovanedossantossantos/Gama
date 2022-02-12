@@ -2,6 +2,7 @@ const Fabricantes = require("./Fabricantes")
 const Produto = require('./Produros')
 const Categorias = require("./Categorias")
 const CategoriaProduto = require("./CategoriaProdutos")
+const Usuarios = require("./Usuarios")
 Produto.belongsTo(Fabricantes,{ 
     foreignKey: 'fabricante_id',
 });
@@ -23,5 +24,6 @@ Categorias.belongsToMany(Produto,{
 module.exports ={
     Fabricantes,
     Produto,
-    Categorias
+    Categorias,
+    Usuarios
 }

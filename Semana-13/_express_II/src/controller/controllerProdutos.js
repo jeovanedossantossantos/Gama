@@ -33,7 +33,7 @@ const controllerProdutos ={
                 where: {id}
             });
             
-            res.status(204)
+            return res.status(204).json("Excluido com sucesso")
         }catch(err){
             return res.status(500).json("Ocorreu algum peoblema")
         }

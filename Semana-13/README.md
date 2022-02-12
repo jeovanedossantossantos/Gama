@@ -5,11 +5,14 @@
 
 <ol>
 <li>
-[ ] REST API
+[x] REST API
 <p><img src="./imgRed/1.png"></p>
 </li>
-<li>[ ] Middlewares</li>
-<li>[ ] Autenticação com JWT (parte 1)</li>
+<li>[x] Middlewares</li>
+<li>[ ] Autenticação com JWT (parte 1)
+    <p></p>
+    <p></p>
+</li>
 <li>[ ] Autenticação com JWT (parte 2)</li>
 <li>[ ] Validação de Dados (parte 1)</li>
 <li>[ ] Validação de Dados (parte 2)</li>
