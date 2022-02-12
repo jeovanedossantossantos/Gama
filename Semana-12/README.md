@@ -2,6 +2,11 @@
 
 <h2>Aulas</h2>
 
+# Modelo do banco de dados usado
+
+<img src="./imgRed/1.png">
+
+
 <ol>
 <li>[x] Introdução a Express</li>
 <li>[x] MVC
@@ -34,8 +39,8 @@ ORM - A ideia dele é ajudar em todas as operações com o banco de dados usando
 </li>
 <li>[x] ORM - Sequelize (Parte 2)</li>
 <li>[x] CRUD - Sequelize (Parte 1)</li>
-<li>[ ] CRUD - Sequelize (Parte 2)</li>
-<li>[ ] Relacionamentos com Sequelize</li>
+<li>[x] CRUD - Sequelize (Parte 2)</li>
+<li>[x] Relacionamentos com Sequelize</li>
 <li>[ ] Relações N pra N</li>
 
 </ol>

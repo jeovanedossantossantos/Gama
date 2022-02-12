@@ -1,27 +1,57 @@
-const Produto = require('../model/Produros')
+const {Produto, Fabricantes, Categorias} = require('../model')
+
 const controllerProdutos ={
     async listarProduto (req, res){
-        const listar = await Produto.findAll();
+        const listar = await Produto.findAll({
+            include:Categorias,
+        });
         res.json(listar)
         // res.json([{nome: "Produto 1"}, {nome: "Produto 2"}])
     },
     async cadastraProduto(req, res){
-        const {nome, preco, quantidade} = req.body;
+        const {nome, preco, quantidade, fabricante_id, 
+            categoria_id} = req.body;
         const novoProduto = await Produto.create({
-            nome:  req.body.nome,
-            preco:  req.body.preco, 
-            quantidade:  req.body.quantidade
-        }).then(function() {
-            // res.send('Post feito com sucesso!')
-        console.log("Sucesso")
-        }).catch(function(erro) {
-            console.log("Erro: " + erro)
-        })
-
-
-        console.log(req.body)
+            nome,
+            preco, 
+            quantidade,
+            fabricante_id
+        });
+        const categoria = await Categorias.findByPk(categoria_id)
+        await novoProduto.setCategorias(categoria)
         res.json(novoProduto)
+
+
+        // console.log(novoProduto)
+       
+    },
+
+    async deletaProduto(req, res) {
+        const {id} = req.params
+        await Produto.destroy({
+            where: {id}
+        });
+        res.json("Protudo deletado!")
+
+    },
+
+    async atualizarProduto(req, res){
+        const {id} = req.params
+        const {nome, preco, quantidade} = req.body;
+
+        const produtoAtualizado = await Produto.update({
+
+            nome,
+            preco, 
+            quantidade
+
+        },{
+            where: {
+                id,
+            }
+        })
+        res.json("Produto atualizado")
     }
-}
+}   
 
 module.exports = controllerProdutos

@@ -19,7 +19,8 @@ routes.post("/cadastra", (req, res)=>{
 
 routes.get("/produto/lista", controllerProdutos.listarProduto)
 routes.post("/produto/criar", controllerProdutos.cadastraProduto)
-
+routes.delete("/produto/:id/deletar", controllerProdutos.deletaProduto )
+routes.put("/produto/:id/atualizar", controllerProdutos.atualizarProduto )
 
 
 module.exports = routes;
