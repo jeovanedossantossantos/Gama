@@ -9,6 +9,7 @@ const controllerProdutos ={
         // res.json([{nome: "Produto 1"}, {nome: "Produto 2"}])
     },
     async cadastraProduto(req, res){
+        
         const {nome, preco, quantidade, fabricante_id, 
             categoria_id} = req.body;
         const novoProduto = await Produto.create({
