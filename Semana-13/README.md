@@ -21,6 +21,6 @@
 </li>
 <li>[x] Validação de Dados (parte 1)</li>
 <li>[x] Validação de Dados (parte 2)</li>
-<li>[ ] Documentação de API</li>
+<li>[x] Documentação de API</li>
 
 </ol>
