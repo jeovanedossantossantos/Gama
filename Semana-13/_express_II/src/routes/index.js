@@ -12,17 +12,6 @@ routes.get("/", (req, res)=>{
     res.send("Olá mundo")
 
 });
-// routes.get("/produto/:id", (req, res)=>{
-//     console.log(req.params)
-//     res.send("Olá mundo")
-
-// });
-
-
-// routes.post("/cadastra", (req, res)=>{
-//     console.log(req.body)
-//     res.json(req.body)
-// })
 
 routes.get("/produtos",requestLog,bloqueio, controllerProdutos.listarProduto)
 routes.post("/produtos", auth, controllerProdutos.cadastraProduto)
