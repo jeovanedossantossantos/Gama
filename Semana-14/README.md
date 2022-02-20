@@ -73,9 +73,9 @@
 </li>
 <li>[x] Prática de upload de arquivos - Parte 2<br/>
 
-    <p>yarn add busboy
+    yarn add busboy
     yarn add request
-    </p>
+   
 
 </li>
 <li>[x] Prática de upload de arquivos - Parte 3</li>
