@@ -46,12 +46,29 @@
 
 </li>
 </li>
-<li>[ ] Prática de processamento de dados - Parte 2</li>
-<li>[ ] Prática de processamento de dados - Parte 3</li>
-<li>[ ] Gerenciamento de arquivos</li>
-<li>[ ] Prática de gerenciamento de arquivos</li>
-<li>[ ] Upload de arquivos</li>
-<li>[ ] Prática de upload de arquivos - Parte 1</li>
+<li>[x] Prática de processamento de dados - Parte 2</li>
+<li>[x] Prática de processamento de dados - Parte 3</li>
+<li>[x] Gerenciamento de arquivos<br/>
+<ol>
+<h5>O que é gerenciamnto de arquivos</h5>
+<li>Cria</li>
+<li>Ler</li>
+<li>Atualizar</li>
+<li>Remover</li>
+</ol>
+<h5>Arquitedura</h5>
+<img max-width="800px" src="./img/13.png"/>
+</li>
+<li>[x] Prática de gerenciamento de arquivos<br/>
+<img max-width="800px" src="./img/14.png"/></li>
+<li>[x] Upload de arquivos<br/>
+<img max-width="800px" src="./img/15.png">
+<img max-width="800px" src="./img/16.png"><br/>
+<p>Acaba lotando a api, pode cair o sistema</p>
+<img max-width="800px" src="./img/17.png">
+<img max-width="800px" src="./img/18.png">
+</li>
+<li>[ ] Prática de upload de arquivos - Parte 1<br/></li>
 <li>[ ] Prática de upload de arquivos - Parte 2</li>
 <li>[ ] Prática de upload de arquivos - Parte 3</li>
 </ol>
