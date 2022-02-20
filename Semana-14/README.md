@@ -68,7 +68,15 @@
 <img max-width="800px" src="./img/17.png">
 <img max-width="800px" src="./img/18.png">
 </li>
-<li>[ ] Prática de upload de arquivos - Parte 1<br/></li>
-<li>[ ] Prática de upload de arquivos - Parte 2</li>
+<li>[x] Prática de upload de arquivos - Parte 1<br/>
+<img max-width="800px" src="./img/19.png">
+</li>
+<li>[x] Prática de upload de arquivos - Parte 2<br/>
+
+    <p>yarn add busboy
+    yarn add request
+    </p>
+
+</li>
 <li>[ ] Prática de upload de arquivos - Parte 3</li>
 </ol>
