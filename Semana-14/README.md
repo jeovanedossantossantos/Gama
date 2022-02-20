@@ -78,5 +78,5 @@
     </p>
 
 </li>
-<li>[ ] Prática de upload de arquivos - Parte 3</li>
+<li>[x] Prática de upload de arquivos - Parte 3</li>
 </ol>
