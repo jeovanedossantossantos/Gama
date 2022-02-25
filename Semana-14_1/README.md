@@ -28,7 +28,7 @@
 <p>Não vamos utilizar nenhuma SDK pronto para integração com a Cielo por questões didáticas, mas sempre que for fazer uma integração, sugiro analisar os SDKs disponiveis;</p>
 
         yarn add express-generator
-        set DEBUG=myapp:* & npm start
+        yarn start
         yarn add cookie-parser
         yarn add morgan
 
