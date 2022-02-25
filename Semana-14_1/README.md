@@ -35,10 +35,13 @@
 
 
 </li>
-<li>[ ] Prática de integração com Node-Fetch - Parte 2
+<li>[x] Prática de integração com Node-Fetch - Parte 2
+
+<a href="https://developercielo.github.io/manual/cielo-ecommerce#sobre-o-sandbox">Cielo api doc</a>
 <p>O node-fetchda v3 é um módulo somente do ESM - você não pode importá-lo com arquivos require().</p>
 <p>     yarn add node-fetch
 </p>
+
 <p>Se você não puder mudar para o ESM, use a v2 que permanece compatível com CommonJS. Correções de bugs críticos continuarão a ser publicadas para a v2.</p>
 <p>
         yarn add node-fetch@2
