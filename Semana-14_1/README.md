@@ -1,4 +1,4 @@
-# Semana 14 - Hacker - Consumo de API terceiras
+# Semana 14.1 - Hacker - Consumo de API terceiras
 
 <ol>
 <h4>Assuntos</h4>
@@ -48,9 +48,15 @@
                 yarn add @types/node-fetch
 
 </li>
-<li>[ ] Prática de integração com Node-Fetch - Parte 3</li>
-<li>[ ] Prática de integração com Node-Fetch - Parte 4</li>
-<li>[ ] O que é o Axios</li>
+<li>[x] Prática de integração com Node-Fetch - Parte 3</li>
+<li>[x] Prática de integração com Node-Fetch - Parte 4</li>
+<li>[x] O que é o Axios?
+<img src="./img/2.png">
+<p><a href="https://www.npmjs.com/package/axios">Documentção do Axios</a></p>
+        yarn add axios
+<p>ou</p>
+        npm install axios
+</li>
 <li>[ ] Prática de integração com Axios - Parte 1</li>
 <li>[ ] Prática de integração com Axios - Parte 2</li>
 <li>[ ] Prática de integração com Axios - Parte 3</li>
