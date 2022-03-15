@@ -53,9 +53,13 @@
 <li>[x] O que é o Axios?
 <img src="./img/2.png">
 <p><a href="https://www.npmjs.com/package/axios">Documentção do Axios</a></p>
+        
         yarn add axios
+        
 <p>ou</p>
+        
         npm install axios
+        
 </li>
 <li>[ ] Prática de integração com Axios - Parte 1
 <a href="https://docs.pagar.me/">Pagarme api doc</a>
