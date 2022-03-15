@@ -57,7 +57,9 @@
 <p>ou</p>
         npm install axios
 </li>
-<li>[ ] Prática de integração com Axios - Parte 1</li>
+<li>[ ] Prática de integração com Axios - Parte 1
+<a href="https://docs.pagar.me/">Pagarme api doc</a>
+</li>
 <li>[ ] Prática de integração com Axios - Parte 2</li>
 <li>[ ] Prática de integração com Axios - Parte 3</li>
 <li>[ ] Finalização</li>
