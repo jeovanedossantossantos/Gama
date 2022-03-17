@@ -1,19 +1,22 @@
 import Button from "../Button";
-import "./styles.css";
+import { Main, Titulo } from "./style";
+
 
 function Banner() {
   return (
-    <main id="banner">
-      <h1>
+    <Main id="banner">
+      <Titulo>
         Escutar muda <br />
         tudo
-      </h1>
+      </Titulo>
       <p>
         Milhões de músicas e podcasts para explorar. E nem precisa de cartão de
         crédito.
       </p>
-      <Button texto="Baixe o spotify free" variante="sucesso" />
-    </main>
+      <div style={{ marginTop: -10 }}>
+        <Button text="Baixe o Spotify FREE" background="#1ED760" color='#2941AB' />
+      </div>
+    </Main>
   );
 }
 

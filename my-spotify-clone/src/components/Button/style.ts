@@ -15,7 +15,9 @@ export const Butto = styled.button<PropsButton>`
     text-transform: uppercase;
     padding:10px 30px;
     border-radius: 50px;
-    border:none;
+    border: solid 1px #2941AB;
+    // border:none;
+    
 
     :hover{
         cursor:pointer;

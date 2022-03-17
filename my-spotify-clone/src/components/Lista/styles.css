@@ -1,0 +1,24 @@
+.lista {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  color: #fff;
+}
+
+.lista h4 {
+  color: #919496;
+  font-size: 12px;
+}
+
+.lista li {
+}
+
+.lista li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.lista li a:hover {
+  color: #1ed760;
+}

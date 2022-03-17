@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat";
+  box-sizing: border-box;
+  
+}
+.rolagem{
+  overflow-y: auto;
+}
+.wrapper {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.divisor {
+  width: 1px;
+  height: 15px;
+  background-color: #fff;
+  display: inline-block;
+}
+
+.logo {
+  width: 150px;
+}

@@ -1,16 +1,10 @@
-import React from "react";
-import { Butto } from "./style";
+import "./styles.css";
 
-interface PropsButton{
-    text: string | undefined;
-    background:string | undefined;
-    color:string | undefined;
+interface PropsButton {
+  texto: string;
+  variante: string;
 }
 
-export default function Button(props: PropsButton){
-    return(
-        <Butto background={props.background} color={props.color}>
-            {props.text}
-        </Butto>
-    )
+export default function Button(props: PropsButton) {
+  return <button className={`button ${props.variante}`}>{props.texto}</button>;
 }

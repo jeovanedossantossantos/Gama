@@ -1,0 +1,11 @@
+.botao-social {
+  background: #222326;
+  width: 54px;
+  height: 54px;
+  border-radius: 50px;
+  padding: 10px;
+}
+
+.botao-social img {
+  width: 100%;
+}
