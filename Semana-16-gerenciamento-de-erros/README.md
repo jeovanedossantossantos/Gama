@@ -29,8 +29,21 @@
 <li>[x] Propagação e interceptação</li>
 <p><img width="500px" src="./img/7.png"/></p>
 <li>[ ] Demonstração de tratamento de erros - Parte 1</li>
-<li>[ ] Demonstração de tratamento de erros - Parte 2</li>
-<li>[ ] Log de erros</li>
+<p><img width="500px" src="./img/8.png"/></p>
+<h4>Gerando api com os padrões do express</h4>
+
+                npx express-generator
+                yarn add -g express-generator
+                express
+
+<li>[x] Demonstração de tratamento de erros - Parte 2</li>
+<li>[x] Log de erros</li>
+<p><img width="500px" src="./img/9.png"/></p>
+<p><img width="500px" src="./img/10.png"/></p>
 <li>[ ] Demonstração de log</li>
+<p>
+</p>
+
+                yarn add winston
 
 </ul>
