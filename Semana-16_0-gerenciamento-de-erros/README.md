@@ -28,7 +28,7 @@
 </li>
 <li>[x] Propagação e interceptação</li>
 <p><img width="500px" src="./img/7.png"/></p>
-<li>[ ] Demonstração de tratamento de erros - Parte 1</li>
+<li>[x] Demonstração de tratamento de erros - Parte 1</li>
 <p><img width="500px" src="./img/8.png"/></p>
 <h4>Gerando api com os padrões do express</h4>
 
@@ -40,7 +40,7 @@
 <li>[x] Log de erros</li>
 <p><img width="500px" src="./img/9.png"/></p>
 <p><img width="500px" src="./img/10.png"/></p>
-<li>[ ] Demonstração de log</li>
+<li>[x] Demonstração de log</li>
 <p>
 </p>
 
