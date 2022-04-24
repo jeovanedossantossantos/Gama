@@ -1,7 +1,7 @@
 # Semana 16 - Hacker - Boas práticas de desenvolvimento
 
 <ul>
-    <li> [x]Introdução a boas práticas de desenvolvimento
+    <li>[x] Introdução a boas práticas de desenvolvimento
     <p><a href="http://getbem.com/introduction/">BEM CSS</a></p>
     <p><a href="https://atomicdesign.bradfrost.com/chapter-2/">ATOMIC DESIGN</a></p>
     </li>
