@@ -12,8 +12,8 @@
 - [x] Estudo de Caso Ecommerce - Modelo Relacional
 - [x] Instalando o MySQL
 - [x] Criando base de dados e as tabelas com SQL
-- [ ] 
-<img src="./img/esquema.jpeg"/>
+
+<img src="./img/esquema.jpeg" />
 		
   		mysql -h localhost -u root -p
 		Enter password: *******
