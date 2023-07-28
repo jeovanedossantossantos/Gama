@@ -1,6 +1,6 @@
 # BANCO DE DADOS 
 
-##Semana 10 - Hacker - Banco de Dados / MySQL
+## Semana 10 - Hacker - Banco de Dados / MySQL
 
 - [x] Por que BD e curiosidades
 - [x] Modelo de Trabalho
